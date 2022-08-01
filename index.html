@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="src/imgs/nba.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+    <title>MapaDev Week</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="nba" src="src/imgs/nba.png" alt="Logo NBA">
+        <h1 class="titulo">Maiores Pontuadores da NBA</h1>
+    </header>
+
+    <main class="players_slider">
+        <button class="btn_seta btn_voltar" id="btn_voltar">
+            <img src="src/imgs/seta.png" alt="Seta Voltar">
+        </button>
+
+        <ul class="lista">
+            <li class="cartao selecionado fundo_1">
+                <div class="informacoes">
+                    <h2 class="nome">Abdul-Jabbar</h2>
+                    <p class="lugar">1° Lugar</p>
+                </div>
+
+                <div class="container_img">
+                    <img class="img_player" src="src/imgs/kaj.png" alt="Kareem Abdul-Jabbar">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="descricao_h3">38,387 pontos</h3>
+                    <p class="texto">Mais um pouco e o lendário pivô Kareem Abdul-Jabbar (16/04/1947) atinge os 40 mil pontos. Já pensou? Em 20 anos de NBA, Abdul-Jabbar somou números inacreditáveis: seis prêmios de melhor jogador da temporada (o maior de todos nesse quesito), dois de melhor das finais, 19 participações no All-Star Game (número recorde!) e seis títulos da NBA, o primeiro pelos Bucks e os demais pelos Lakers, nos gloriosos anos 80. Um verdadeiro fenômeno do basquete!</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo_2">
+                <div class="informacoes">
+                    <h2 class="nome">LeBron James</h2>
+                    <p class="lugar">2° Lugar</p>
+                </div>
+
+                <div class="container_img">
+                    <img class="img_player" src="src/imgs/lbj.png" alt="LeBron James">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="descricao_h3">37,062 pontos</h3>
+                    <p class="texto">LeBron James (30/12/1984) é um dos poucos nesta lista que ainda estão em atividade (atualmente no Lakers). Portanto, podem esperar que ainda vêm muitas cestas por aí. No dia 6 de março de 2019, King James realizou a façanha de passar Jordan e no dia 25 de janeiro de 2020 ultrapassou Kobe Bryant. E ele não parou por aí! Em 20 de março de 2022, ultrapassou Karl Malone, passando para a segunda posição! LeBron James já foi campeão da NBA quatro vezes (e eleito o melhor das finais nas quatro ocasiões).</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo_3">
+                <div class="informacoes">
+                    <h2 class="nome">Karl Malone</h2>
+                    <p class="lugar">3° Lugar</p>
+                </div>
+
+                <div class="container_img">
+                    <img class="img_player km" src="src/imgs/km.png" alt="Karl Malone">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="descricao_h3">36,928 pontos</h3>
+                    <p class="texto">Há um dado curioso na carreira de Karl Malone (24/07/1963), o terceiro maior cestinha da história da NBA: nunca foi campeão. Nem mesmo a transferência do Utah Jazz para os Lakers em 2003, já no finzinho da carreira, alterou a sina dos vice-campeonatos. Apesar disso, é considerado um dos maiores alas-pivôs de todos os tempos, sendo eleito duas vezes o melhor jogador da temporada em plena era Jordan.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn_seta" id="btn_avancar">
+            <img src="src/imgs/seta.png" alt="Seta Avançar">
+        </button>
+    </main>
+
+    <footer class="rodapé">
+        <a href="https://www.nba.com" target="_blank">Conheça mais sobre a NBA aqui!</a>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>

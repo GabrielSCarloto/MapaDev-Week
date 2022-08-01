@@ -1,0 +1,43 @@
+@media (max-width: 620px) {
+    .cabecalho .titulo {
+        font-size: 20px;
+    }
+
+    .players_slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .btn_seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista {
+        height: 480px;
+    }
+
+    .cartao .img_player {
+        max-width: 80%;
+        max-height: 210px;
+    }
+
+    .cartao .img_player.km {
+        max-width: 120%;
+        max-height: 250px;
+        padding: 0;
+    }
+
+    .cartao .informacoes .nome {
+        max-width: 50%;
+        font-size: 16px;
+    }
+
+    .cartao .informacoes .lugar {
+        font-size: 12px;
+    }
+}
